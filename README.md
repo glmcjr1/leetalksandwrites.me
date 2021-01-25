@@ -1,1 +1,0 @@
-# leetalksandwrites.me
