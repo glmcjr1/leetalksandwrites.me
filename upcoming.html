@@ -27,8 +27,56 @@
 	    <img src="images/Lee talks and writes.png" width="20%" alt="logo">
 		<p style="font-size: 50px; text-align: center; font-family: butcherman; font-style: normal; font-weight: 400;"><span style="font-family: philosopher; font-style: italic; font-weight: 700;">Upcoming Projects</span></p>
 	<p style="text-align: justify; font-family: philosopher; font-style: normal; font-weight: 700; font-size: 24px;">We are currently in the process of working on...</p>
+		<div class="form">
+			<h1><em><strong style="font-size: 36px; color: #030303;">Submit Discussions Form</strong></em></h1>
+			<form action="#" method="post" autocomplete="on">
+				<!--Name Info-->
+				<label for="fname">First Name: </label>
+				<input type="text" id="fname" name="fname">
+				<br/>
+				<label for="lname">Last Name:  </label>
+				<input type="text" id="lname" name="lname">
+				<br/><br/>
+				<!--Type Options-->
+				<h3>Type</h3>
+				<label for="sensitive">Sensitive</label>
+				<input type="radio" id="sensitive" name="type" value="sensitive">
+				<label for="non-sensitive">Non-Sensitive</label>
+				<input type="radio" id="non-sensitive" name="type" value="non-sensitive">
+				<label for="vdark">Very Dark</label>
+				<input type="radio" id="vdark" name="type" value="vdark">
+				<br/><br/>
+				<h3>Subject</h3>
+				<input type="checkbox" id="politics" name="politics" value="politics">
+				<label for="politics">Politics</label>
+				<br/>
+				<input type="checkbox" id="sports" name="sports" value="sports">
+				<label for="sports">Sports</label>
+				<br/>
+				<input type="checkbox" id="entertainment" name="entertainment" value="entertainment">
+				<label for="entertainment">Entertainment</label>
+				<br/><br/>
+				<h3>Discussion Type</h3>
+				<label for="D-Type">D-Type</label>
+				<select id="D-Type" name="D-Type">
+					<option value="supported by facts">Supported by Facts</option>
+					<option value="conspiracy">Conspiracy</option>
+					<option value="not talked about">Avoided Topic</option>
+					<option value="info blackout">Information Blackout</option>
+					<option value="pbelief">Personal Thought</option>
+				</select>
+				<br/><br/>
+				<h3>What's the Big Idea</h3>
+				<textarea name="notes" rows="20" cols="134"></textarea>
+				<br/><br/>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Clear">
+				<br/><br/>
+			</form>
+	  </div>
+
 		
 </article>
-<footer><h4 style="text-align: center">Still have questions? <a href="mailto:glmckenziejr@stu.aii.edu">Contact us</a> online or call 555-555-5555 <a href="https://smashburger.com/">Visit Us</a></h4></footer>
+<footer><h4 style="text-align: center">Still have questions? <a href="mailto:glmckenziejr@stu.aii.edu">Contact us</a> online or call 555-555-5555 <a href="https://google.com/">Visit Us</a></h4></footer>
 </body>
 </html>
